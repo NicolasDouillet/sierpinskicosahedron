@@ -1,32 +1,32 @@
-%% Sierpinski_icosahedron
+%% Sierpinskicosahedron
 %
 % Function to compute, display, and save a Sierpinski
-% icosahedron at any iteration number / depth level.
+% icosahedron at any iteration.
 %
-% Author & support : nicolas.douillet (at) free.fr, 2020.
+% Author & support : nicolas.douillet (at) free.fr, 2020-2022.
 %
 %% Syntax
 %
-% Sierpinski_icosahedron;
+% Sierpinskicosahedron;
 %
-% Sierpinski_icosahedron(nb_it);
+% Sierpinskicosahedron(nb_it);
 %
-% Sierpinski_icosahedron(nb_it, option_display);
+% Sierpinskicosahedron(nb_it, option_display);
 %
-% [V,T] = Sierpinski_icosahedron(nb_it, option_display);
+% [V,T] = Sierpinskicosahedron(nb_it, option_display);
 %
 %% Description
 %
-% Sierpinski_icosahedron computes and displays the 3-level / iteration
+% Sierpinskicosahedron computes and displays the 3-level / iteration
 % Sierpinski icosahedron included in the unit sphere.
 %
-% Sierpinski_icosahedron(nb_it) computes nb_it depth levels / iterations..
+% Sierpinskicosahedron(nb_it) computes nb_it depth levels / iterations..
 %
-% Sierpinski_icosahedron(nb_it, option_display) displays it when
+% Sierpinskicosahedron(nb_it, option_display) displays it when
 % option_display is set to logical *true/1 (default), and doesn't
 % when it is set to  logical false/0.
 %
-% [V,T] = Sierpinski_icosahedron(nb_it, option_display) stores the resulting
+% [V,T] = Sierpinskicosahedron(nb_it, option_display) stores the resulting
 % vertex coordinates in the array V, and the triangulation in the array T.
 %
 %% See also
@@ -54,9 +54,9 @@
 %% Example #1
 % Computes and displays the simple Sierpinski icosahedron at iteration 3
 
-Sierpinski_icosahedron(3);
+Sierpinskicosahedron(3);
 
 %% Example #2
 % Computes, displays, and saves the Sierpinski icosahedron at iteration 5
 
-[V,T] = Sierpinski_icosahedron(5,true);
+[V,T] = Sierpinskicosahedron(5,true);
