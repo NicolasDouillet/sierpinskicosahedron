@@ -3,7 +3,7 @@
 % Function to compute, display, and save a Sierpinski
 % icosahedron at any iteration.
 %
-% Author & support : nicolas.douillet (at) free.fr, 2020-2022.
+% Author : nicolas.douillet9 (at) gmail.com, 2020-2024.
 %
 %% Syntax
 %
